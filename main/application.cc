@@ -602,7 +602,7 @@ void Application::Start()
     if (protocol_started)
     {
         // std::string message = std::string(Lang::Strings::VANSILVER_VERSION) + ota.GetCurrentVersion();
-        std::string message = std::string(Lang::Strings::VANSILVER_VERSION);
+        std::string message = std::string("Văn Silver");
         display->ShowNotification(message.c_str());
         display->SetChatMessage("system", "");
         // Play the success sound to indicate the device is ready
