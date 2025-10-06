@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "Ładowanie zasobów...",
         "PLEASE_WAIT": "Proszę czekać...",
         "FOUND_NEW_ASSETS": "Znaleziono nowe zasoby: %s",
-        "HELLO_MY_FRIEND": "Cześć, mój przyjacielu!"
+        "HELLO_MY_FRIEND": "Cześć, mój przyjacielu!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "アセットを読み込み中...",
         "PLEASE_WAIT": "お待ちください...",
         "FOUND_NEW_ASSETS": "新しいアセットが見つかりました: %s",
-        "HELLO_MY_FRIEND": "こんにちは、友達！"
+        "HELLO_MY_FRIEND": "こんにちは、友達！",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

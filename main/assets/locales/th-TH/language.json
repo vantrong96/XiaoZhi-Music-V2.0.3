@@ -51,6 +51,7 @@
         "LOADING_ASSETS": "กำลังโหลดทรัพยากร...",
         "PLEASE_WAIT": "กรุณารอสักครู่...",
         "FOUND_NEW_ASSETS": "พบทรัพยากรใหม่: %s",
-        "HELLO_MY_FRIEND": "สวัสดี เพื่อนของฉัน!"
+        "HELLO_MY_FRIEND": "สวัสดี เพื่อนของฉัน!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

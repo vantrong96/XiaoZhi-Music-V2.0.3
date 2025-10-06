@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "Se încarcă resursele...",
         "PLEASE_WAIT": "Vă rugăm să așteptați...",
         "FOUND_NEW_ASSETS": "S-au găsit resurse noi: %s",
-        "HELLO_MY_FRIEND": "Salut, prietenul meu!"
+        "HELLO_MY_FRIEND": "Salut, prietenul meu!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

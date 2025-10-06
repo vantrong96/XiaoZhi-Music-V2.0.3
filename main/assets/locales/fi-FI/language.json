@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "Ladataan resursseja...",
         "PLEASE_WAIT": "Odota hetki...",
         "FOUND_NEW_ASSETS": "Löydetty uusia resursseja: %s",
-        "HELLO_MY_FRIEND": "Hei, ystäväni!"
+        "HELLO_MY_FRIEND": "Hei, ystäväni!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

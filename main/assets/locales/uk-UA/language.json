@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "Завантаження ресурсів...",
         "PLEASE_WAIT": "Будь ласка, зачекайте...",
         "FOUND_NEW_ASSETS": "Знайдено нові ресурси: %s",
-        "HELLO_MY_FRIEND": "Привіт, мій друже!"
+        "HELLO_MY_FRIEND": "Привіт, мій друже!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }

@@ -50,6 +50,7 @@
         "LOADING_ASSETS": "Varlıklar yükleniyor...",
         "PLEASE_WAIT": "Lütfen bekleyin...",
         "FOUND_NEW_ASSETS": "Yeni varlıklar bulundu: %s",
-        "HELLO_MY_FRIEND": "Merhaba, arkadaşım!"
+        "HELLO_MY_FRIEND": "Merhaba, arkadaşım!",
+        "VANSILVER_VERSION": "VanSilver"
     }
 }
