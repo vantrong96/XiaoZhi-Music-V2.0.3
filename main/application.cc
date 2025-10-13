@@ -601,8 +601,8 @@ void Application::Start()
     // }
     if (protocol_started)
     {
-        // std::string message = std::string(Lang::Strings::VANSILVER_VERSION) + ota.GetCurrentVersion();
-        std::string message = std::string(Lang::Strings::VANSILVER_VERSION);
+        std::string message = std::string(Lang::Strings::VANSILVER_VERSION) + ota.GetCurrentVersion();
+        // std::string message = std::string(Lang::Strings::VANSILVER_VERSION);
         display->ShowNotification(message.c_str());
         display->SetChatMessage("system", "");
         // Play the success sound to indicate the device is ready
@@ -763,6 +763,12 @@ void Application::SetDeviceState(DeviceState state)
     auto previous_state = device_state_;
     device_state_ = state;
     ESP_LOGI(TAG, "STATE: %s", STATE_STRINGS[device_state_]);
+
+    if (strcmp(STATE_STRINGS[device_state_], "listening") == 0)
+    {
+        audio_service_.PlaySound(Lang::Sounds::OGG_SUCCESS);
+        vTaskDelay(pdMS_TO_TICKS(500));
+    }
 
     // Send the state change event
     DeviceStateEventManager::GetInstance().PostStateChangeEvent(previous_state, state);
