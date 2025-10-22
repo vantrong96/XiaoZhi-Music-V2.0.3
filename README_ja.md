@@ -154,4 +154,6 @@ Feishuドキュメントチュートリアルをご覧ください：
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
  </picture>
-</a> 
+</a>
+
+![Custom Vietnamese Wakeword](docs/huong_dan_custom_wakeword.png) 
